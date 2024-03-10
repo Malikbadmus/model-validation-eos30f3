@@ -1,3 +1,3 @@
-# model-validation-eos30gr
+# Model-Validation-eos30gr
 
 ### Structure
