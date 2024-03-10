@@ -8,6 +8,10 @@ This repository is organised by folders:
 - Notebooks: Houses the jupyter notebook files where most of the developmen took place.
 - Src: Contains important functions I will re-use throughout the repository, to avoid typing them each time.
 
+## Model Abstract
+
+This model leverages the ChemProp network (D-MPNN, see original Stokes et al, Cell, 2020 for more information) to build a predictor of hERG-mediated cardiotoxicity. The model has been trained using a dataset published by Cai et al, J Chem Inf Model, 2019, which contains 7889 molecules with several cut-offs for hERG blocking activity. The authors select a 10 uM cut-off. This implementation of the model does not use any specific featurizer, though the authors suggest the moe206 descriptors (closed-source) improve performance even further.
+
 ## Model Characteristics
 
 - Model ID: Eos30f3
