@@ -1,1 +1,3 @@
-# model-validation-eos30gr
+# Model-Validation-eos30gr
+
+## :derelict_house: Structure
