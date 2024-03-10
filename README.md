@@ -25,4 +25,6 @@ Check [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/r
 
 ## Getting Started
 
+1. Install Ersilia Model Hub
+     - Follow this [step](https://ersilia.gitbook.io/ersilia-book/ersilia-model-hub/installation) to install the Hub.
 
