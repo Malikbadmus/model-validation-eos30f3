@@ -10,3 +10,9 @@ This repository is organised by folders:
 
 ## Model Characteristics
 
+- Model ID: Eos30f3
+- Model Slug: dmpnn-herg
+- Task: Classification
+- Interpretation: Probability of blocking hERG (cut-off: 10uM)
+
+  
