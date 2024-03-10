@@ -8,7 +8,5 @@ This repository is organised by folders:
 - Notebooks: Houses the jupyter notebook files where most of the developmen took place.
 - Src: Contains important functions I will re-use throughout the repository, to avoid typing them each time.
 
----
-
 ## Model Characteristics
 
