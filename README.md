@@ -15,6 +15,10 @@ This repository is organised by folders:
 - Task: Classification
 - Interpretation: Probability of blocking hERG (cut-off: 10uM)
 
-  ## Installation Environment
+## Installation Environment
 
-  Check [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/requirements.txt)
+Check [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/requirements.txt)
+
+## Getting Started
+
+
