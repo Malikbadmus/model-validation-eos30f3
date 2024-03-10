@@ -1,6 +1,8 @@
 import numpy as np
 from rdkit import Chem
 from standardiser import standardise
+from rdkit.Chem import inchi
+
 
 
 def standardise_smiles(smiles):
@@ -36,12 +38,10 @@ def standardise_smiles(smiles):
 def standardise_inchikey(inchikeys):
     st_inchikeys = []
     for inchikey in inchikeys:
-        
-        if inchikey:
-            
-            st_inchikey = inchikey.strip().upper()
+        if pd.isna(inchikey):  
+            st_inchikeys.append(np.nan)
         else:
             
-            st_inchikey = np.nan
-        st_inchikeys.append(st_inchikey)
+            st_inchikeys.append(inchikey.strip().upper())
     return st_inchikeys
+
