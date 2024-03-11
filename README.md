@@ -41,4 +41,4 @@ Check [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/r
 4. Make predictions with the Processed Datasets [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/data/Processed/100_Molecules.csv)
 
    ```
-   ersilia -v api run -i data/Processed/1000_Molecules.csv -o data/Model_predictions/output_data.csv
+   ersilia -v api run -i data/Processed/1000_Molecules.csv -o data/Model_predictions/eos30f3_output.csv
