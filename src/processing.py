@@ -38,10 +38,10 @@ def standardise_smiles(smiles):
 def standardise_inchikey(inchikeys):
     st_inchikeys = []
     for inchikey in inchikeys:
-        if pd.isna(inchikey):  
-            st_inchikeys.append(np.nan)
+        if inchikey:
+            st_inchikey = inchikey.strip().upper()
         else:
             
-            st_inchikeys.append(inchikey.strip().upper())
+            st_inchikey = np.nan
+        st_inchikeys.append(st_inchikey)
     return st_inchikeys
-
