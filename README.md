@@ -53,5 +53,5 @@ Check [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/r
 
 1. ChEMBL Data Procurement:
    
-     - A Datasets of '3592' Small Molecules Compounds that has been aproved for Use was Downloaded in a CSV format, and stored in /data/Raw.
+     - A Datasets of `3592` Small Molecules Compounds that has been aproved for Use was Downloaded in a CSV format, and stored in /data/Raw.
 -
