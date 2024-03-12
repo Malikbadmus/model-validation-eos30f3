@@ -49,7 +49,7 @@ Check [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/r
 
 - DrugBank: A comprehensive, free-to-access, online database containing information on drugs and drug targets.
 
-### Data Procurement Process
+## Data Procurement Process
 
 1. ChEMBL Data Procurement:
    
@@ -60,6 +60,6 @@ Check [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/r
      -  
 
 
-### License
+## License
 
 All the code in this repository is licensed under a GPLv3 License.
