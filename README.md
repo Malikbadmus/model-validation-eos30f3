@@ -57,7 +57,7 @@ Check [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/r
        
 2. DrugBank Data Procumnet:
 
-     -  
+     -  The Dateset that was gotten here was manually curated by me, to match the randomly selected 10 molecules, 5 from each class. DrugBank provides the target predictions of different Molecules. 
 
 
 ## License
