@@ -55,3 +55,8 @@ Check [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/r
    
      - A Datasets of `3592` Small Molecules Compounds that has been aproved for Use was Downloaded in a CSV format, and stored in /data/Raw.
 -
+
+
+### License
+
+All the code in this repository is licensed under a GPLv3 License.
