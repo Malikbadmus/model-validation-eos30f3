@@ -45,3 +45,8 @@ def standardise_inchikey(inchikeys):
             st_inchikey = np.nan
         st_inchikeys.append(st_inchikey)
     return st_inchikeys
+
+def convert_to_probability(pred_blocker):
+    
+    pred_non_blocker = 1 - pred_blocker
+    return pred_non_blocker

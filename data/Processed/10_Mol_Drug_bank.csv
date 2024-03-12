@@ -1,0 +1,11 @@
+Name,Predictions,Probability
+PRIMAQUINE,hERG blockers,0.8162
+FLUPHENAZINE,hERG blockers,0.8157
+METHYLPROMAZINE,hERG blockers,0.818
+DESLORATADINE,hERG blockers,0.8016
+LASOFOXIFENE,hERG blockers,0.6914
+TAZOBACTAM,hERG non blockers,0.8552
+DIPIVEFRIN,hERG non blockers,0.8847
+PIROXICAM,hERG non blockers,0.8311
+FLUNITRAZEPAM,hERG non blockers,0.8074
+ACETAMINOPHEN,hERG non blockers,0.9597
