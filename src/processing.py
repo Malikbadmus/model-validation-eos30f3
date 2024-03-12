@@ -45,11 +45,4 @@ def standardise_inchikey(inchikeys):
         st_inchikeys.append(st_inchikey)
     return st_inchikeys
 
-# Compute Morgan fingerprints for the molecules
 
-def generate_fingerprint(smiles):
-    mol = Chem.MolFromSmiles(smiles)
-    finger_prints = AllChem.GetMorganFingerprintAsBitVect(mol, radius=2)
-    array = np.zeros((1,), dtype=np.int8)
-    Chem.DataStructs.ConvertToNumpyArray(finger_prints, array)
-    return array
