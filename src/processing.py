@@ -1,7 +1,7 @@
 import numpy as np
 from rdkit import Chem
 from standardiser import standardise
-from rdkit.Chem import inchi
+from rdkit.Chem import inchi, DataStructs, Chem, AllChem
 
 
 
@@ -40,13 +40,16 @@ def standardise_inchikey(inchikeys):
     for inchikey in inchikeys:
         if inchikey:
             st_inchikey = inchikey.strip().upper()
-        else:
-            
+        else: 
             st_inchikey = np.nan
         st_inchikeys.append(st_inchikey)
     return st_inchikeys
 
-def convert_to_probability(pred_blocker):
-    
-    pred_non_blocker = 1 - pred_blocker
-    return pred_non_blocker
+# Compute Morgan fingerprints for the molecules
+
+def generate_fingerprint(smiles):
+    mol = Chem.MolFromSmiles(smiles)
+    finger_prints = AllChem.GetMorganFingerprintAsBitVect(mol, radius=2)
+    array = np.zeros((1,), dtype=np.int8)
+    Chem.DataStructs.ConvertToNumpyArray(finger_prints, array)
+    return array
