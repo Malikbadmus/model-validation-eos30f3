@@ -1,7 +1,7 @@
 import numpy as np
 from rdkit import Chem
 from standardiser import standardise
-from rdkit.Chem import inchi, DataStructs, Chem, AllChem
+from rdkit.Chem import inchi, DataStructs, AllChem
 
 
 
