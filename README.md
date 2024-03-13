@@ -52,9 +52,12 @@ Check [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/r
 ## Data Procurement Process
 
 1. ChEMBL Data Procurement:
-   
-     - A Datasets of `3592` Small Molecules Compounds that has been aproved for Use was Downloaded in a CSV format, and stored in /data/Raw.
-       
+
+   - A Datasets of `3592` Small Molecules Compounds that has been aproved for Use was Downloaded in a CSV format, and stored in /data/Raw.
+
+2. DMPNN-hERG Datasets Procurement:
+
+   - The Model was trained on `7889` compounds with well-defined experimental data on the hERG and with diverse chemical structures assembled by Cai et al in their work published in J Chem Inf Model, 2019 here [https://pubmed.ncbi.nlm.nih.gov/30715873/] , it provides target variables with various cutoffs for hERG blocking activity
 
 ## License
 
