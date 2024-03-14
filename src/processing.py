@@ -35,6 +35,15 @@ def standardise_smiles(smiles):
         st_smiles += [st_smi]
     return st_smiles
 
+
+def generate_inchi_key(smiles):
+    mol = Chem.MolFromSmiles(smiles)
+    if mol is not None:
+        inchi_key = inchi.MolToInchiKey(mol)
+        return inchi_key
+    else:
+        return None
+
 def standardise_inchikey(inchikeys):
     st_inchikeys = []
     for inchikey in inchikeys:
@@ -44,5 +53,6 @@ def standardise_inchikey(inchikeys):
             st_inchikey = np.nan
         st_inchikeys.append(st_inchikey)
     return st_inchikeys
+
 
 
