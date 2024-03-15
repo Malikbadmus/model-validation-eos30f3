@@ -37,12 +37,12 @@ def standardise_smiles(smiles):
 
 
 def generate_inchi_key(smiles):
-    mol = Chem.MolFromSmiles(smiles)
-    if mol is not None:
-        inchi_key = inchi.MolToInchiKey(mol)
-        return inchi_key
-    else:
-        return None
+    if isinstance(smiles, str):  # Check if the input is a string
+        mol = Chem.MolFromSmiles(smiles)
+        if mol is not None:
+            inchi_key = inchi.MolToInchiKey(mol)
+            return inchi_key
+    return None
 
 def standardise_inchikey(inchikeys):
     st_inchikeys = []
