@@ -65,8 +65,7 @@ Check [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/r
 
 
 ## References
-
-      - DPMN-hERG GitHub page [here](https://github.com/AI-amateur/DMPNN-hERG).
+bbb
      
    
 ## License
