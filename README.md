@@ -66,11 +66,11 @@ Check [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/r
 
 ## References
 
-[Publication](https://pubs.rsc.org/en/content/articlehtml/2022/ra/d1ra07956e#imgfig2)
+- [Publication](https://pubs.rsc.org/en/content/articlehtml/2022/ra/d1ra07956e#imgfig2)
 
-[DPMN-hERG](https://github.com/AI-amateur/DMPNN-hERG)
+- [DPMN-hERG GitHub page](https://github.com/AI-amateur/DMPNN-hERG)
 
-[Eos30f3 GitHub page](https://github.com/ersilia-os/eos30f3)
+- [Eos30f3 GitHub page](https://github.com/ersilia-os/eos30f3)
 
      
    
