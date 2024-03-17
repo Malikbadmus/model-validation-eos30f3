@@ -5,6 +5,7 @@
 This repository is organised by folders:
 
 - Data: Contains the raw data, processed data and Model predictions.
+- Figures: Contains a collection of visualizations presented in PNG format..
 - Notebooks: Houses the jupyter notebook files where most of the developmen took place.
 - Src: Contains important functions I will re-use throughout the repository, to avoid typing them each time.
 
@@ -58,6 +59,10 @@ Check [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/r
 2. DMPNN-hERG Datasets Procurement:
 
    - The Model was trained on `7889` compounds with well-defined experimental data on the hERG and with diverse chemical structures assembled by Cai et al in their work published in J Chem Inf Model, 2019 [here](https://pubmed.ncbi.nlm.nih.gov/30715873/), it provides target variables with various cutoffs for hERG blocking activity. 
+
+
+## References
+
 
 ## License
 
