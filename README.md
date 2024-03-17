@@ -65,7 +65,9 @@ Check [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/r
 
 
 ## References
-bbb
+
+[Publication](https://pubs.rsc.org/en/content/articlehtml/2022/ra/d1ra07956e#imgfig2)
+
      
    
 ## License
