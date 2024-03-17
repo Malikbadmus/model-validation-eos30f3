@@ -15,9 +15,12 @@ This model leverages the ChemProp network (D-MPNN, see original Stokes et al, Ce
 
 ## Model Characteristics
 
-- Model ID: Eos30f3
-- Model Slug: dmpnn-herg
-- Task: Classification
+- Input: `Compound`
+- Input Shape: `Single`
+- Task: `Classification`
+- Output: `Score`
+- Output Type: `Float`
+- Output Shape: `Single`
 - Interpretation: Probability of blocking hERG (cut-off: 10uM)
 
 ## Installation Environment
