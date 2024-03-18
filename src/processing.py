@@ -37,7 +37,7 @@ def standardise_smiles(smiles):
 
 
 def generate_inchi_key(smiles):
-    if isinstance(smiles, str):  # Check if the input is a string
+    if isinstance(smiles, str):  
         mol = Chem.MolFromSmiles(smiles)
         if mol is not None:
             inchi_key = inchi.MolToInchiKey(mol)
