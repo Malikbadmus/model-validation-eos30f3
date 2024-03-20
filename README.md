@@ -57,7 +57,11 @@ Check [here](https://github.com/Malikbadmus/model-validation-eos30f3/blob/main/r
 
    - The Model was trained on `7889` compounds with well-defined experimental data on the hERG and with diverse chemical structures assembled by Cai et al in their work published in J Chem Inf Model, 2019 [here](https://pubmed.ncbi.nlm.nih.gov/30715873/), it provides target variables with various cutoffs for hERG blocking activity. 
 
+3. External Datasets Procurement:
 
+   - This hERG data set provides 648 drugs with binary labels, it was sourced from Therapeutics Data Commons, which is a collection of datasets for drug discovery.
+  
+   - 
 ## References
 
 - [Publication](https://pubs.rsc.org/en/content/articlehtml/2022/ra/d1ra07956e#imgfig2)
